@@ -1,0 +1,89 @@
+html {
+  color: white;
+}
+body {
+  text-align: center;
+  margin: 0;
+  padding: 50px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  height: 20px;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  color: black;
+  margin-left: 10px;
+}
+li {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+h1 {
+  color: rgb(197, 218, 211);
+}
+.quote_text {
+  font-size: 22px;
+  font-weight: 600;
+}
+.author {
+  font-size: 12px;
+  color: rgb(158, 158, 158);
+}
+#inputBtn {
+  height: 28px;
+  color: white;
+  border-radius: 15px;
+  border: 2px solid rgb(143, 143, 143);
+  color: white;
+  margin-left: 5px;
+  background-color: rgba(0, 0, 0, 0.637);
+  font-weight: 500;
+}
+#clock-Box {
+  font-size: 30px;
+}
+#container {
+  width: 300px;
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.637);
+  border-radius: 30px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+#todoList-Box {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+#todo-list {
+  font-size: 30px;
+  list-style: none;
+  padding-left: 0px;
+  margin-right: 10px;
+}
+#inputName {
+  height: 25px;
+  border-radius: 15px;
+  border: none;
+}
+#inputTodo {
+  height: 25px;
+  width: 225px;
+  border-radius: 15px;
+  border: 2px solid burlywood;
+  color: white;
+}
+
+.hidden {
+  display: none;
+}
